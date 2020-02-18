@@ -1,0 +1,23 @@
+body {
+    background-image: url("assets/background.png");
+    background-position: center top;
+}
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 20%;
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+a {
+    text-decoration: currentColor;
+    color: aqua;
+}
