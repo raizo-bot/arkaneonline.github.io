@@ -4,9 +4,12 @@ body {
     background-blend-mode: color;
 }
 
+img {
+    margin-top: 11%;
+}
+
 h1 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding-top: 20%;
     color: white;
     text-align: center;
     text-shadow: 2px 2px black;
@@ -17,7 +20,7 @@ p {
     color: white;
     text-align: center;
     position: relative;
-    text-shadow: 2px 1.25px black;
+    text-shadow: 2px 1.2px black;
 }
 
 a {
