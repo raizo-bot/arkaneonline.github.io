@@ -9,6 +9,7 @@ h1 {
     padding-top: 20%;
     color: white;
     text-align: center;
+    text-shadow: 2px 2px black;
 }
 
 p {
@@ -16,6 +17,7 @@ p {
     color: white;
     text-align: center;
     position: relative;
+    text-shadow: 2px 1.25px black;
 }
 
 a {
