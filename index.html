@@ -17,11 +17,15 @@
         function RedirectToSupportServer() {
             window.location.href = "/support";
         }
+        function RedirectToCommandsPage() {
+            window.location.href = "/commands";
+        }
     </script>
     <center>
         <h1>Lavenza</h1>
         <p>A Persona Discord bot in development</p>
         <button class="w3-button w3-indigo" id="inviteButton" onclick="RedirectToDiscordInvite();">Invite</button>
         <button class="w3-button w3-indigo" id="supportButton" onclick="RedirectToSupportServer();">Support</button>
+        <button class="w3-button w3-indigo w3-disabled" id="commandsButton" <!--onclick="RedirectToCommandsPage();-->">Commands</button>
     </center>
 </body>
