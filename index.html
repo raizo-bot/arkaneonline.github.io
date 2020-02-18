@@ -8,11 +8,14 @@
 </head>
 <body>
     <script>
-
+        function RedirectToDiscordInvite() {
+            window.location.href = "/invite"
+        }
     </script>
     <center>
         <h1>Lavenza</h1>
         <p>A Persona Discord bot in development</p>
         <a href="invite">Invite the Bot</a>
+        <button type="button" id="inviteButton" onclick="RedirectToDiscordInvite();">Invite</button>
     </center>
 </body>
