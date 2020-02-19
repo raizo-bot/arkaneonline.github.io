@@ -18,9 +18,79 @@
         function RedirectToHomePage() {
             window.location.href = "/";
         }
+        function RedirectToDiscordInvite() {
+            window.location.href = "/invite";
+        }
+        function RedirectToSupportServer() {
+            window.location.href = "/support";
+        }
+        function RedirectToPatreonPage() {
+            window.location.href = "/patreon"
+        }
     </script>
     <center>
-        <button class="w3-button w3-indigo" id="backButton" onclick="RedirectToHomePage();">Home</button>
+        <a href="assets/bot_avatar.png">
+            <img src="assets/bot_avatar.png"
+                class="w3-round w3-image w3-border w3-border-black w3-topbar w3-bottombar w3-leftbar w3-rightbar"
+                style="width: 212px;height: 212px;">
+        </a>
+        <h1>Lavenza Commands</h1>
+        <p>Note, this list is incomplete and is subject to change at any moment!</p>
+        <button class="w3-button w3-indigo w3-border w3-border-black w3-round-large" id="backButton"
+            onclick="RedirectToHomePage();">Home</button>
+        <button class="w3-button w3-indigo w3-border w3-border-black w3-round-large" id="inviteButton"
+            onclick="RedirectToDiscordInvite();">Invite</button>
+        <button class="w3-button w3-indigo w3-border w3-border-black w3-round-large" id="supportButton"
+            onclick="RedirectToSupportServer();">Support</button>
+        <button class="w3-button w3-indigo w3-border w3-border-black w3-round-large" id="patreonButton"
+            onclick="RedirectToPatreonPage();">Patreon</button>
+        <br>
+        <br>
+        <br>
+        <div class="w3-responsive">
+            <table class="w3-table w3-border w3-centered w3-hoverable w3-border-black">
+                <tr class="w3-indigo">
+                    <th class="tableStrong">Command Name</th>
+                    <th class="tableStrong">Description</th>
+                    <th class="tableStrong">Usage</th>
+                </tr>
+                <tr class="w3-black w3-border-bottom w3-border-dark-grey">
+                    <th>Help</th>
+                    <th>Displays all of the current commands for the bot!</th>
+                    <th>;help (command)</th>
+                </tr>
+                <tr class="w3-black w3-border-bottom w3-border-dark-grey">
+                    <th>Invite</th>
+                    <th>Sends a link to the current channel that you can use to invite Lavenza to any server!</th>
+                    <th>;invite</th>
+                </tr>
+                <tr class="w3-black w3-border-bottom w3-border-dark-grey">
+                    <th>Support</th>
+                    <th>Sends a link to the current channel that you can use to join the support server!</th>
+                    <th>;support</th>
+                </tr>
+                <tr class="w3-black w3-border-bottom w3-border-dark-grey">
+                    <th>Avatar</th>
+                    <th>Sends a picture of you or a specified user's avatar on Discord!</th>
+                    <th>;avatar (@user)</th>
+                </tr>
+                <tr class="w3-black w3-border-bottom w3-border-dark-grey">
+                    <th>Ping</th>
+                    <th>Gets the latency from Lavenza's servers and the latency from the Discord API!</th>
+                    <th>;ping</th>
+                </tr>
+                <tr class="w3-black w3-border-bottom w3-border-dark-grey">
+                    <th>Version</th>
+                    <th>Get's the current version of Lavenza and all of it's dependencies that it uses!</th>
+                    <th>;version</th>
+                </tr>
+                <tr class="w3-black w3-border-bottom w3-border-dark-grey">
+                    <th>P3</th>
+                    <th>A command that tries to condense all of the other Persona 3 commands into one command. /a will give you the answer variant, /f will get you the FES Fusion of a Persona, and /p will give you the Portable Fusion of a Persona. Note that you may only append one switch at a time.</th>
+                    <th>;p3 [persona/shadow] (/a) (/f) (/p)</th>
+                </tr>
+            </table>
+        </div>
     </center>
 </body>
 
