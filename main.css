@@ -1,5 +1,5 @@
 body {
-    background-image: url("assets/background.png");
+    background-image: url("assets/black_background.jpg") ,url("assets/background.png");
     background-size: cover;
     background-blend-mode: color;
     background-attachment: fixed;
