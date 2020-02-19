@@ -26,6 +26,10 @@ p {
     text-shadow: 2px 1.2px black;
 }
 
+button {
+    margin-bottom: 10%;
+}
+
 a {
     text-decoration: currentColor;
     color: aqua;
