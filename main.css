@@ -34,3 +34,15 @@ a {
     text-decoration: currentColor;
     color: aqua;
 }
+
+.tableStrong {
+    font-weight: bolder;
+    font-size: large;
+    text-shadow: 2px 1.2px black;
+}
+
+th {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 300;
+}
+
