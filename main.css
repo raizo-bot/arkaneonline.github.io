@@ -57,3 +57,11 @@ th {
     text-shadow: 2px 1.2px black;
     padding-bottom: 1.5%;
 }
+
+html::-webkit-scrollbar {
+    display: none;
+}
+
+html {
+    -ms-overflow-style: none;
+}
