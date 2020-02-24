@@ -47,11 +47,14 @@
             onclick="RedirectToSupportServer();">Support</button>
         <button class="w3-button w3-indigo w3-border w3-border-black w3-round-large" id="patreonButton"
             onclick="RedirectToPatreonPage();">Patreon</button>
+        <button class="w3-button w3-indigo w3-border w3-border-black w3-round-large" id="scrollButton"
+            onclick="document.getElementById('commandList').scrollIntoView();">Scroll to Commands</button>
         <br>
         <br>
         <br>
         <div class="w3-responsive">
-            <table class="w3-table w3-border w3-centered w3-hoverable w3-border-black w3-card" style="margin-bottom: 7%;">
+            <table class="w3-table w3-border w3-centered w3-hoverable w3-border-black w3-card"
+                style="margin-bottom: 7%;" id="commandList">
                 <tr class="w3-indigo">
                     <th class="tableStrong">Command Name</th>
                     <th class="tableStrong">Description</th>
@@ -94,13 +97,18 @@
                 </tr>
                 <tr class="w3-black w3-border-bottom w3-border-dark-grey">
                     <th>P3</th>
-                    <th>A command that tries to condense all of the other Persona 3 commands into one command. /a will give you The Answer variant, /f will get you the FES Fusion of a Persona, and /p will give you the Portable Fusion of a Persona. Note that you may only append one switch at a time.</th>
+                    <th>A command that tries to condense all of the other Persona 3 commands into one command. /a
+                        will
+                        give you The Answer variant, /f will get you the FES Fusion of a Persona, and /p will give
+                        you
+                        the Portable Fusion of a Persona. Note that you may only append one switch at a time.</th>
                     <th>;p3 [persona/shadow] (/a) (/f) (/p)</th>
                 </tr>
             </table>
         </div>
         <div class="footer">
-            <i class="material-icons">code</i> with <i class="material-icons">favorite</i> by <a href="https://twitter.com/ArkaneOnline" target="_blank">Arkane</a>
+            <i class="material-icons">code</i> with <i class="material-icons">favorite</i> by <a
+                href="https://twitter.com/ArkaneOnline" target="_blank">Arkane</a>
         </div>
     </center>
 </body>

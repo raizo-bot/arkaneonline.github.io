@@ -64,4 +64,5 @@ html::-webkit-scrollbar {
 
 html {
     -ms-overflow-style: none;
+    scroll-behavior: smooth;
 }
