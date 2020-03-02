@@ -19,7 +19,7 @@
 <body>
     <script>
         function RedirectToDiscordInvite() {
-            alert("This feature is currently disabled! \nCheck back later! -Arkane")
+            alert("This feature is currently disabled! \nCheck back later! -Arkane");
             //window.location.href = "/invite";
         }
         function RedirectToSupportServer() {
@@ -29,10 +29,14 @@
             window.location.href = "/commands";
         }
         function RedirectToPatreonPage() {
-            window.location.href = "/patreon"
+            window.location.href = "/patreon";
         }
         function RedirectToForum() {
-            window.location.href = "https://forum.lavenza.tk"
+            window.location.href = "https://forum.lavenza.tk";
+        }
+        function RedirectToAssetsPage() {
+            alert("This feature is currently disabled! \nCheck back later! -Arkane");
+            //window.location.href = "/assets";
         }
     </script>
     <center>
@@ -54,6 +58,8 @@
                 onclick="RedirectToCommandsPage();">Commands</button>
             <button class="w3-button w3-indigo w3-border w3-border-black w3-round-large" id="patreonButton"
                 onclick="RedirectToPatreonPage();">Patreon</button>
+            <button class="w3-button w3-indigo w3-border w3-border-black w3-round-large w3-disabled" id="assetsButton"
+                onclick="RedirectToAssetsPage();">Assets</button> 
         </div>
         <div class="footer">
             <i class="material-icons">code</i> with <i class="material-icons">favorite</i> by <a
