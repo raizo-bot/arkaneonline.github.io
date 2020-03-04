@@ -1,3 +1,8 @@
+@font-face {
+    font-family: p5Font;
+    src: url(assets/p5hatty.ttf);
+}
+
 body {
     background-image: url("assets/background.png");
     background-size: cover;
@@ -12,22 +17,26 @@ img {
 }
 
 h1 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: p5Font;
     color: white;
     text-align: center;
     text-shadow: 2px 2px black;
 }
 
 p {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: p5Font;
     color: white;
     text-align: center;
     position: relative;
     text-shadow: 2px 1.2px black;
+    font-size: 125%;
 }
 
 button {
     margin-bottom: 10%;
+    font-family: p5Font;
+    font-size: 125%;
+    text-shadow: 2px 1.2px black;
 }
 
 a {
@@ -42,11 +51,14 @@ a {
 }
 
 th {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: p5Font;
     font-weight: 300;
+    font-size: 125%;
 }
 
 .footer {
+    font-family: p5Font;
+    font-size: 125%;
     position: fixed;
     left: 0;
     bottom: 0;
