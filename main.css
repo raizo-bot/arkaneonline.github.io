@@ -30,6 +30,7 @@ p {
     position: relative;
     text-shadow: 2px 1.2px black;
     font-size: 125%;
+    -webkit-text-stroke: 0.5px black;
 }
 
 button {
