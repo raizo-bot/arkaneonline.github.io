@@ -16,6 +16,11 @@
 </head>
 
 <body>
+    <script>
+        function RedirectToHome() {
+            window.location.hef = "/"
+        }
+    </script>
     <center>
         <a href="assets/bot_avatar.png">
             <img src="assets/bot_avatar.png"
@@ -23,9 +28,22 @@
                 style="width: 212px;height: 212px;border-radius: 50%;">
         </a>
         <h1>Lavenza Assets</h1>
+        <p>Some assets from the Lavenza team that you can use and download! <br>A lot of this is just the Persona
+            soundtrack and art, but there is some community made stuff here too!</p>
+        <div class="w3-bar" id="buttonDiv">
+            <button class="w3-button w3-indigo w3-border w3-border-black w3-round-large" id="backButton"
+                onclick="RedirectToHome();">Home</button>
+            <br>
+            <br>
+            <button class="w3-button w3-indigo w3-border w3-border-black w3-round-large" id="p5ostButton"
+                onclick="document.getElementById('p5ost').scrollIntoView();">P5 Soundtrack</button>
+            <button class="w3-button w3-indigo w3-border w3-border-black w3-round-large" id="p5rostButton"
+                onclick="document.getElementById('p5rost').scrollIntoView();">P5R Soundtrack</button>
+        </div>
         <br>
         <br>
-        <p>Persona 5 OST:</p>
+        <br>
+        <p id="p5ost">Persona 5 OST:</p>
 
         <p>A Woman -another version-:</p>
         <audio controls>

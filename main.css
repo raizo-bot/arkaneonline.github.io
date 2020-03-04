@@ -34,7 +34,7 @@ p {
 }
 
 button {
-    margin-bottom: 10%;
+    
     font-family: p5Font;
     font-size: 125%;
     text-shadow: 2px 1.2px black;
@@ -71,6 +71,9 @@ th {
     padding-bottom: 1.5%;
 }
 
+.buttonDiv {
+    margin-bottom: 10%;
+}
 
 html::-webkit-scrollbar {
     width: 6px;
