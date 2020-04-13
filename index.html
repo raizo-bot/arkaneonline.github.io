@@ -1,68 +1,47 @@
 <!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <title>Lavenza | Home</title>
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="main.css">
-    <meta name="viewport" content="width=device-width">
-    <meta property="og:name" content="Lavenza Homepage">
-    <meta name="description"
-        content="The first ever, public Persona Discord Bot! Equiped with everything you need to help you through the journey of your rehabilitation!">
-    <meta property="og:image" content="http://lavenza.tk/assets/bot_avatar.png">
-    <meta property="og:url" content="http://lavenza.tk">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lavenza | The first ever Persona Discord Bot</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css">
+    <meta property="og:name" content="Lavenza">
+    <meta property="og:description" content="A Persona Discord bot that aims to help with your journey through the Persona games!">
+    <meta property="og:image" content="https://lavenza.tk/assets/logo-square.png">
+    <meta property="og:url" content="https://lavenza.tk/">
     <meta property="og:type" content="website">
     <meta name="theme-color" content="#0040ff">
 </head>
 
 <body>
     <script>
-        function RedirectToDiscordInvite() {
-            alert("This feature is currently disabled! \nCheck back later! -Arkane");
-            //window.location.href = "/invite";
-        }
-        function RedirectToSupportServer() {
-            window.location.href = "/support";
-        }
-        function RedirectToCommandsPage() {
-            window.location.href = "/commands";
-        }
-        function RedirectToPatreonPage() {
-            window.location.href = "/patreon";
-        }
-        function RedirectToForum() {
-            window.location.href = "https://forum.lavenza.tk";
-        }
-        function RedirectToAssetsPage() {
-            window.location.href = "/assets";
-        }
+
     </script>
-    <center>
-        <a href="assets/bot_avatar.png">
-            <img src="assets/bot_avatar.png"
-                class="w3-round w3-image w3-border w3-border-black w3-topbar w3-bottombar w3-leftbar w3-rightbar"
-                style="width: 212px;height: 212px;border-radius: 50%;">
-        </a>
+    <header>
+        <a href="#"><img class="logo" src="assets/logo-circular.png" alt="Lavenza"></a>
+        <nav>
+            <ul class="nav_links">
+                <li><a href="https://forum.lavenza.tk/">Forum</a></li>
+                <li><a href="/discord">Discord</a></li>
+                <li><a href="https://github.com/ArkaneOnline/lavenza">GitHub</a></li>
+            </ul>
+        </nav>
+        <a class="cta" href="/invite"><button>Invite</button></a>
+    </header>
+
+    <div class="page-wrapper">
+        <img class="avatar" src="assets/logo-square.png" alt="Lavenza in use on Discord"> <br>
+        <br>
         <h1>Lavenza</h1>
-        <p>A Persona Discord bot in development!</p>
-        <div class="w3-bar" id="buttonDiv">
-            <button class="w3-button w3-indigo w3-border w3-border-black w3-round-large w3-disabled" id="inviteButton"
-                onclick="RedirectToDiscordInvite();">Invite</button>
-            <button class="w3-button w3-indigo w3-border w3-border-black w3-round-large" id="supportButton"
-                onclick="RedirectToSupportServer();">Support Server</button>
-            <button class="w3-button w3-indigo w3-border w3-border-black w3-round-large" id="supportButton"
-                onclick="RedirectToForum();">Forum</button>
-            <button class="w3-button w3-indigo w3-border w3-border-black w3-round-large" id="commandsButton"
-                onclick="RedirectToCommandsPage();">Commands</button>
-            <button class="w3-button w3-indigo w3-border w3-border-black w3-round-large" id="patreonButton"
-                onclick="RedirectToPatreonPage();">Patreon</button>
-            <button class="w3-button w3-indigo w3-border w3-border-black w3-round-large" id="assetsButton"
-                onclick="RedirectToAssetsPage();">Assets</button>
-        </div>
-        <div class="footer">
-            <i class="material-icons">code</i> with <i class="material-icons">favorite</i> by <a
-                href="https://twitter.com/Arkane_Persona" target="_blank">Arkane</a>
-        </div>
-    </center>
+        <p>The first ever, public Persona Discord Bot!</p> <br>'
+        <a class="cta" href="/invite"><button>Invite</button></a> <br>
+        <br>
+        <a href="https://twitter.com/LavenzaBot"><i class="fab fa-twitter"></i></a>
+        <a href="/discord"><i class="fab fa-discord"></i></a>
+        <a href="https://github.com/ArkaneOnline/lavenza"><i class="fab fa-github"></i></a>
+    </div>
 </body>
+
+</html>
