@@ -242,4 +242,8 @@ button:hover {
         max-width: 360px;
         min-width: 360px;
     }
+
+    .page-wrapper {
+        min-width: 100vw;
+    }
 }
