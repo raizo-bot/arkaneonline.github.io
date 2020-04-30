@@ -117,6 +117,7 @@ button:hover {
 
 .devTeam {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     padding: 15px 15%;
@@ -129,9 +130,15 @@ button:hover {
 
 .staffTeam {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     padding: 15px 15%;
+    animation: fadeIn ease-out 2s;
+    -webkit-animation: fadeIn ease-out 2s;
+    -moz-animation: fadeIn ease-out 2s;
+    -o-animation: fadeIn ease-out 2s;
+    -ms-animation: fadeIn ease-out 2s;
 }
 
 .devAvatar {
@@ -164,8 +171,9 @@ button:hover {
     background-color: rgb(21, 22, 26);
     padding: 40px;
     border-radius: 5%;
-    min-width: 35%;
-    max-width: 35%;
+    min-width: 475px;
+    max-width: 475px;
+    margin-top: 20px;
     box-shadow: 0px 0px 20px rgb(21, 22, 26);
 }
 
@@ -173,8 +181,9 @@ button:hover {
     background-color: rgb(21, 22, 26);
     padding: 40px;
     border-radius: 5%;
-    min-width: 35%;
-    max-width: 35%;
+    min-width: 475px;
+    max-width: 475px;
+    margin-top: 20px;
     box-shadow: 0px 0px 20px rgb(21, 22, 26);
 }
 
@@ -185,40 +194,40 @@ button:hover {
     100% {
       opacity:1;
     }
-  }
+}
   
-  @-moz-keyframes fadeIn {
+@-moz-keyframes fadeIn {
     0% {
       opacity:0;
     }
     100% {
       opacity:1;
     }
-  }
+}
   
-  @-webkit-keyframes fadeIn {
+@-webkit-keyframes fadeIn {
     0% {
       opacity:0;
     }
     100% {
       opacity:1;
     }
-  }
+}
   
-  @-o-keyframes fadeIn {
+@-o-keyframes fadeIn {
     0% {
       opacity:0;
     }
     100% {
       opacity:1;
     }
-  }
+}
   
-  @-ms-keyframes fadeIn {
+@-ms-keyframes fadeIn {
     0% {
       opacity:0;
     }
     100% {
       opacity:1;
     }
-  }
+}
